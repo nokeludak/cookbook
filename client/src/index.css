@@ -1,0 +1,392 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.modal-title {
+  text-align: center;
+  border-bottom: 0.5px solid black;
+}
+
+.modal-title > h2 {
+  font-size: 2.5rem;
+}
+
+.modal-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.modal-body {
+  border-bottom: 1px solid black !important;
+}
+
+.modal-left {
+  width: 40%;
+}
+
+.mb-3 {
+  display: flex !important;
+}
+
+.modal-footer {
+  border: none !important;
+  justify-content: center !important;
+  padding: 0 !important;
+}
+
+.modal-bottom {
+  display: block;
+}
+
+.modal-footer-top {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-left: 45%;
+}
+
+.modal-footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 15%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.home-left {
+  border: 1px solid black;
+}
+
+.single-top,
+.single-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.single-top {
+  margin-top: 0.25rem;
+}
+
+.single-search {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.single-search:last-child {
+  border-bottom: none;
+}
+
+.home-right-top,
+.home-right-bottom {
+  border: 1px solid black;
+  margin-bottom: 2.5rem;
+}
+
+.home-right-top > h2,
+.home-right-bottom > h2 {
+  margin: 0.5rem;
+}
+
+.top-single,
+.latest-single {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.home-right-top-title {
+  margin: 1rem;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.home-right-bottom-title {
+  margin: 1rem;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.top-single:last-child{
+  border-bottom:none;
+  margin-bottom: 0;
+}
+
+.latest-single:last-child{
+  border-bottom:none;
+  margin-bottom: 0;
+}
+
+.recipe {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.recipe-left > p {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
+
+.recipe-left > p > b {
+  font-size: 1.25rem;
+}
+
+.recipe-ing {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.recipe-right-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.recipe-right-desc,
+.recipe-right-inst {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.recipe-right > p > b,
+.recipe-right > p {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.recipe-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 2.5rem;
+}
+
+.more-recipes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.more-single {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 5px 5px #888888;
+}
+
+.add {
+  display: block;
+}
+
+.add-title {
+  text-align: center;
+  margin: 2rem;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image > div {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.rest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7.5rem;
+  margin-bottom: 2rem;
+}
+
+.my-title {
+  text-align: center;
+  margin: 2rem;
+}
+
+.my-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border: 1px solid black;
+}
+
+thead {
+  border-bottom: 1px solid black;
+}
+
+th,
+td {
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.my-profile {
+  margin-top: 2rem;
+}
+
+.mp-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 425px) {
+  body,
+  * {
+    font-size: 12px;
+  }
+
+  .home {
+    display: block;
+    margin: 2rem;
+  }
+
+  .home-right-top {
+    margin-top: 2.5rem;
+  }
+
+  .image {
+    margin-left: 25%;
+  }
+
+  table {
+    padding: 0 !important;
+  }
+
+  th,
+  td {
+    padding: 0.5rem;
+  }
+
+  .my-main {
+    margin-left: -10px;
+  }
+
+  .recipe {
+    display: block;
+    margin: 2rem;
+  }
+
+  .more-recipes {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body,
+  * {
+    font-size: 10px;
+  }
+
+  .home {
+    display: block;
+    margin: 2rem;
+  }
+
+  .home-right-top {
+    margin-top: 2.5rem;
+  }
+
+  .image {
+    margin-left: 25%;
+  }
+
+  th,
+  td {
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body,
+  * {
+    font-size: 10px;
+  }
+
+  .home {
+    display: block;
+    margin: 2rem;
+  }
+
+  .home-right-top {
+    margin-top: 2.5rem;
+  }
+
+  .image {
+    margin-left: 25%;
+  }
+
+  table {
+    margin-left: 10px;
+  }
+
+  th,
+  td {
+    padding: 0.5rem;
+  }
+}
